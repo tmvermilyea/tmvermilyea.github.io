@@ -33,6 +33,7 @@ body {
 
 .header h1 {
     font-size: 40px; /* Make name larger */
+    padding-top: 40px;
 }
 
 .nav {
@@ -41,7 +42,7 @@ body {
 }
 
 .nav a {
-    float: left; /* Make sure that the links stay side-by-side */
+    float: right; /* Make sure that the links stay side-by-side */
     display: block; /* Change the display to block, for responsive reasons (see below) */
     color: white; /* White text color */
     text-align: center; /* Center the text */
