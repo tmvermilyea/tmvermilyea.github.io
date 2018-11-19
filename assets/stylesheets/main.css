@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  margin: 0;
 }
 ol, ul {
 	list-style: none;
@@ -60,7 +61,6 @@ table {
 
 .header h1 {
     font-size: 40px; /* Make name larger */
-    text-align: center;
 }
 
 .nav {
