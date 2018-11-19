@@ -52,7 +52,8 @@ table {
 */
 
 .header {
-  padding: 100px;
+  padding-top: 250px;
+  padding-bottom: 100px;
   text-align: center;
   background: gray;
   color: white;
