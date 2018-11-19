@@ -15,7 +15,7 @@ html, body {
   background-color: gray;
   max-width: 100%%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 100%;
 }
 
