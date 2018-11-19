@@ -53,13 +53,14 @@ table {
 
 .header {
   padding: 100px;
-  text-align: center;
+  text-align:center;
   background: gray;
   color: white;
 }
 
 .header h1 {
     font-size: 40px; /* Make name larger */
+    text-align: center;
 }
 
 .nav {
