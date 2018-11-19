@@ -1,52 +1,59 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
+
+/*
+  Reset
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+	margin: 0; padding: 0; border: 0;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+
 body {
-	line-height: 1;
+	background: #f2f0eb url(images/backgroundtexture.png);
+	font: 16px Helvetica, Arial, Sans-Serif; color: #636363; line-height: 24px;
 }
-ol, ul {
-	list-style: none;
+
+#container {
+	width: 960px; margin: 0 auto;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+#photo {
+	margin: 10px auto 0 auto; position: relative; width: 183px;
 }
 
 /* Start of Tim Vermilyea Portfolio styling
    v1.0 11/18/2018
 */
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: gray;
+  color: white;
+}
+
+.header h1 {
+    font-size: 40px; /* Make name larger */
+}
+
+.nav {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+}
+
+.nav a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+}
+
+.navbar a.right {
+    float: right; /* Float a link to the right */
+}
+
+.nav a:hover {
+    background-color: #ddd; /* Grey background color */
+    color: black; /* Black text color */
+}
