@@ -64,6 +64,6 @@ time, mark, audio, video {
 
 .footer {
     padding: 40px; /* Some padding */
-    text-align: right; /* Center text*/
+    text-align: right; /* Align text*/
     background: #ddd; /* Grey background */
 }
