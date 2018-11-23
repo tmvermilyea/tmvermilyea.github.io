@@ -1,5 +1,5 @@
 /*
-  Tim Vermilyea Portfolio styling
+  Tim Vermilyea index.html styling
   v1.0 11/18/2018
 */
 
@@ -64,6 +64,6 @@ time, mark, audio, video {
 
 .footer {
     padding: 40px; /* Some padding */
-    text-align: center; /* Center text*/
+    text-align: right; /* Center text*/
     background: #ddd; /* Grey background */
 }
