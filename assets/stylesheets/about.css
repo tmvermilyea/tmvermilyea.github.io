@@ -25,7 +25,9 @@ time, mark, audio, video {
 }
 
 .header {
-  padding: 20px 400px;
+  padding-top: 40px;
+  padding-bottom: 400px;
+  padding-left: 40px;
   text-align: left;
   background: gray;
   color: white;
