@@ -48,7 +48,7 @@ time, mark, audio, video {
 }
 
 .left {
-  width: 40%;
+  width: 30%;
 	font-size: 30;
 }
 
@@ -57,7 +57,7 @@ time, mark, audio, video {
 }
 
 .right {
-  width: 60%;
+  width: 70%;
 }
 
 .project1:after {
