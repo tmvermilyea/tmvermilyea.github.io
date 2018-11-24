@@ -52,6 +52,10 @@ time, mark, audio, video {
 	font-size: 30;
 }
 
+.left h1{
+	font-size: 30;
+}
+
 .right {
   width: 60%;
 }
