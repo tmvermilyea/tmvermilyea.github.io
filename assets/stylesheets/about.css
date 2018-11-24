@@ -24,6 +24,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .header {
   padding-top: 40px;
   padding-bottom: 40px;
