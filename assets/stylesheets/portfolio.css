@@ -24,18 +24,36 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-.project1 {
-  padding: 100px 100px;
-  text-align: center;
-  background: gray;
-  color: white;
+.header {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	text-align: left;
+	background: gray;
+	color: white;
 }
 
-.project2 {
-  padding: 100px 100px;
-  text-align: center;
-  background: gray;
-  color: white;
+.header h1 {
+	font-size: 40px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+.project1:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .nav {
