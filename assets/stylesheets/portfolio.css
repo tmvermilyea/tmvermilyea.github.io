@@ -48,16 +48,16 @@ time, mark, audio, video {
 }
 
 .left {
-  width: 30%;
-	font-size: 30;
+  width: 35%;
 }
 
-.left h1{
-	font-size: 30;
+.left h1 {
+	font-size: 30px;
 }
 
 .right {
-  width: 70%;
+  width: 65%;
+	margin: auto;
 }
 
 .project1:after {
@@ -78,7 +78,7 @@ time, mark, audio, video {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
