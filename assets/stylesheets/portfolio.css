@@ -48,6 +48,7 @@ time, mark, audio, video {
 
 .left {
   width: 40%;
+	font-size: 30;
 }
 
 .right {
