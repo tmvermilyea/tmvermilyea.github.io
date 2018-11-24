@@ -57,7 +57,6 @@ time, mark, audio, video {
 
 .right {
   width: 65%;
-	margin: auto;
 }
 
 .project1:after {
@@ -71,6 +70,7 @@ time, mark, audio, video {
 }
 
 .slideshow {
+	margin: auto;
 	display: none;
 }
 
