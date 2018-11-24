@@ -59,6 +59,13 @@ time, mark, audio, video {
   width: 65%;
 }
 
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
 .project1:after {
     content: "";
     display: table;
