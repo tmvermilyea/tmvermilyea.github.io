@@ -26,7 +26,7 @@ time, mark, audio, video {
 
 .header {
   padding-top: 40px;
-  padding-bottom: 400px;
+  padding-bottom: 40px;
   padding-left: 40px;
   text-align: left;
   background: gray;
@@ -35,6 +35,25 @@ time, mark, audio, video {
 
 .header h1 {
     font-size: 40px; /* Make name larger */
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+.project1:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .nav {
