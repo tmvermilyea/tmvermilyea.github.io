@@ -29,6 +29,8 @@ time, mark, audio, video {
 }
 
 .header {
+	display: block;
+	margin: auto;
   padding: 100px 100px;
   text-align: center;
   background-image: url("texture.png");
