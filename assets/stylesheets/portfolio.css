@@ -48,7 +48,7 @@ time, mark, audio, video {
 }
 
 .left {
-  width: 35%;
+  width: 40%;
 }
 
 .left h1 {
@@ -56,14 +56,16 @@ time, mark, audio, video {
 }
 
 .right {
-  width: 65%;
+  width: 60%;
 }
 
 .center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 75%;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 70%;
 }
 
 .project1:after {
