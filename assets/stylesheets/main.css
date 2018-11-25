@@ -32,7 +32,7 @@ time, mark, audio, video {
   padding: 100px 100px;
   text-align: center;
   background-image: url("texture.png");
-	background-repeat: no-repeat;
+	background-size: cover;
   color: white;
 }
 
