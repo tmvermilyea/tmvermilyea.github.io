@@ -33,7 +33,7 @@ time, mark, audio, video {
 	padding-bottom: 40px;
 	padding-left: 40px;
 	text-align: left;
-	background: gray;
+	background: black;
 	color: white;
 }
 
@@ -87,11 +87,11 @@ time, mark, audio, video {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 55%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -106,11 +106,11 @@ time, mark, audio, video {
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(211,211,211,0.8);
 }
 
 .numbertext {
-  color: #f2f2f2;
+  color: black;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
