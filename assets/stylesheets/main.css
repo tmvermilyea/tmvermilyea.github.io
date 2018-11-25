@@ -31,7 +31,7 @@ time, mark, audio, video {
 .header {
   padding: 100px 100px;
   text-align: center;
-  background: gray;
+  background-image: url(assets/pictures/backgroundtexture.png);
   color: white;
 }
 
