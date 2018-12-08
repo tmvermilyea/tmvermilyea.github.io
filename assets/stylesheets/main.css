@@ -42,7 +42,7 @@ time, mark, audio, video {
 
 .nav {
     overflow: hidden; /* Hide overflow */
-    background-color: black; /* Dark background color */
+    background-image: linear-gradient(gray, black); /* Dark background color */
 }
 
 .nav a {
@@ -66,5 +66,5 @@ time, mark, audio, video {
 .footer {
     padding: 40px; /* Some padding */
     text-align: right; /* Align text*/
-    background-image: url("texture.png"); /* Grey background */
+    background-image: linear-gradient(black, gray); /* Grey background */
 }
