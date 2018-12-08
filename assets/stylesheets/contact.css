@@ -29,7 +29,7 @@ time, mark, audio, video {
   padding-bottom: 400px;
   padding-left: 40px;
   text-align: left;
-  background: gray;
+  background-image: linear-gradient(black, #ddd);
   color: white;
 }
 
@@ -63,5 +63,5 @@ time, mark, audio, video {
 .footer {
     padding: 40px; /* Some padding */
     text-align: right; /* Align text*/
-    background: #ddd; /* Grey background */
+    background-image: linear-gradient(#ddd, white); /* Grey background */
 }
