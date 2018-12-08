@@ -29,7 +29,7 @@ time, mark, audio, video {
 }
 
 .header {
-  padding: 100px 100px;
+  padding: 110px 110px;
   text-align: center;
   background-image: url("texture.png");
 	background-size: contain;
@@ -64,7 +64,7 @@ time, mark, audio, video {
 }
 
 .footer {
-    padding: 40px; /* Some padding */
+    padding: 20px; /* Some padding */
     text-align: right; /* Align text*/
-    background-image: linear-gradient(black, gray); /* Grey background */
+    background-image: linear-gradient(#000, #404040); /* Grey background */
 }
