@@ -66,5 +66,6 @@ time, mark, audio, video {
 .footer {
     padding: 10px; /* Some padding */
     text-align: right; /* Align text*/
+		color: white;
     background-image: linear-gradient(#000, #404040); /* Grey background */
 }
